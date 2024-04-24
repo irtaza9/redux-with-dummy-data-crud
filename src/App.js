@@ -11,6 +11,8 @@ import {
 import "./App.css";
 import { Addcontact } from "./Components/Addcontact";
 import Editcontact from "./Components/editContact";
+import Deletecontact from "./Components/deleteContact";
+
 
 function App() {
 
@@ -25,6 +27,7 @@ function App() {
             <Route exact path="/" element={<Contact />} />
             <Route exact path="/contacts/add" element={<Addcontact />} />
             <Route exact path="/contacts/edit/:id" element={<Editcontact />} />
+            <Route exact path="/contacts/delete/:id" element={<Deletecontact/>}/>
           </Routes>
         </div>
       </div>

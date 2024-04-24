@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
@@ -10,7 +10,9 @@ export const Navbar = () => {
             Contact Book
           </Link>
           <div>
-                      <Link  to="/contacts/add" className="btn btn-light ml-auto">Create Contact</Link>
+            <Link to="/contacts/add" className="btn btn-light ml-auto">
+              Create Contact
+            </Link>
           </div>
         </div>
       </nav>

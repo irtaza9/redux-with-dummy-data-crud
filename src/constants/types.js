@@ -1,5 +1,6 @@
-export const CREATE_CONTACT = "CREATE_CONTANT";
-export const GET_CONTACT = "GET_CONTACT";
+// export const CREATE_CONTACT = "CREATE_CONTANT";
+// export const GET_CONTACT = "GET_CONTACT";
+// //export const UPDATE_CONTACT= "UPDATE_CONTACT"
 
 export const dummydata = [
   {
